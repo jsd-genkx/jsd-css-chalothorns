@@ -25,15 +25,17 @@ body {
 	background-color: var(--color-accent);
 	width: 100%;
 	min-height: 100dvh;
+	outline:solid 5px var(--color-black);
 
 	display: flex;
-	/* gap: 1rem; */
-	/* justify-content: center; */
-	/* align-items: center; */
-	/* align-content: center; */
+	gap: 1rem;
+	/* column-gap: 2rem; */
+	justify-content: center;
+	align-items: center;
+	align-content: center; /*ทำให้ระยะห่างระหว่างสี่เหลี่ยมใกล้กันและเท่ากันหมด*/
 	/* flex-wrap: wrap; */
 
-	/* flex-direction: column; */
+	/* flex-direction: row; */ /*แสดงผลแบบแนวตั้งหรือนอน*/
 	/* height: 90vh; */
 }
 
@@ -45,13 +47,13 @@ body {
 	color: var(--color-white);
 	border: solid var(--color-white) 5px;
 
-	/* flex-shrink: 1;
-	flex-grow: 0;
+	/* flex-shrink: 1; 1 หมายความว่ากล่องเอาไปคนละ1ส่วน ถ้าหน้าจอลดขนาด ให้กล่องลดขนาดด้วย แต่ถ้าเพิ่มจนสุดตามไซซ์มัน ไม่ต้องเพิ่ม */
+	/* flex-grow: 0;
 	flex-basis: 300px; */
 
 	/* flex:1; */
 }
 
-/* .box3 {
+/* .box1, .box4 {
 	flex:555;
 } */

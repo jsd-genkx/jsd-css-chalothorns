@@ -66,7 +66,7 @@ header {
 			}
 		}
 	}
-
+     /*สั่งให้ตัวที่เหลือถูกดันไปทางขวา*/
 	.nav-item:first-of-type {
 		margin-right: auto;
 	}
